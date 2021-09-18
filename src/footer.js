@@ -107,7 +107,7 @@ function Example(props){
  </div>
      <p style={{textAlign:'center', fontSize:11}}>
       Copyright 2021 JOSEPH NGISSAH NTORI all rights reserved <br/>
-      Powered by <a  href="http://ravinlead.com">RavinLead Tech Hub</a>
+      Powered by <a  href="http://joseph.ravinlead.com">Ntori Joseph Ngissah</a>
 </p>
         </div>
         
