@@ -20,6 +20,7 @@ import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
+import Search from '@material-ui/icons/Search';
 import Button from '@material-ui/core/Button';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -107,7 +108,9 @@ const Menu = ()=>{
                 <ul className="right hide-on-med-and-down">
         
                     
-                        <li><Chip style={{ width: "300%" }} /> </li>                        <li><Link >Sell your properties</Link></li>
+                        <li><Chip style={{ width: "100%" }} /></li>
+                        <li style={{ textAlign: "left" }}             ><Button style={{ backgroundColor: "#016450", color: "white", marginLeft:"-50px", marginRight:"100px" }}> <Search /></Button></li>
+                        <li><Link >Sell your properties</Link></li>
                         <li>   {['right'].map((anchor) => (
                             <React.Fragment key={anchor}>
                                 <Button onClick={toggleDrawer(anchor, true)}><Menu1 /></Button>
@@ -137,9 +140,9 @@ const Menu = ()=>{
         </React.Fragment>
       ))}
       
-      <span style={{marginLeft:'24%'}}>
-         <img src={Logo} className="logo_img_small" alt="" />
-      </span>
+      <span style={{marginLeft:'0'}}>
+                        <Chip style={{ width: "100%" }} />
+                    </span><Button style={{backgroundColor:"#016450" , color:"white"}}> <Search/></Button>
     </div>
         
         
