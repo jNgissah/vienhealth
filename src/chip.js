@@ -20,7 +20,8 @@ import Chips from 'react-chips'
                 <Chips
                     value={this.state.chips}
                     onChange={this.onChange}
-                    suggestions={["Your", "Data", "Here"]}
+                    placeholder="Add more"
+                    suggestions={["Your", "Data", "Here", "Apple", "Book", "Car", "Day", "English", "Ghana", "Home", "India", "Joke", "Long"]}
 
                 />
             </div>
