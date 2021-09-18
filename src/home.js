@@ -9,6 +9,10 @@ import Image4 from './img/Rectangle382@2x.png';
 import Image5 from './img/Rectangle383@2x.png';
 import Image6 from './img/Rectangle384@2x.png';
 import Image7 from './img/Rectangle385@2x.png';
+import Agent1 from './img/Rectangle400.png';
+import Agent2 from './img/Rectangle401.png';
+import Agent3 from './img/Rectangle402.png';
+import Agent4 from './img/Rectangle403.png';
 import Property1 from './img/image@12x.png';
 import Property2 from './img/image@2x.png';
 import Property3 from './img/image.png';
@@ -228,16 +232,16 @@ function Example(props){
 
     var images_group = [
           {
-              image: Image3,
+              image: Agent1,
               name: "Listing Agent"
           },   {
-              image: Image3,
+              image: Agent2,
               name: "Premier Agent"
           },   {
-              image: Image3,
+              image: Agent3,
               name: "Premier Agent"
           },  {
-              image: Image3,
+              image: Agent4,
               name: "Premier Agent"
           }
              ]
