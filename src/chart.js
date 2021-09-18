@@ -2,9 +2,9 @@ import React from 'react';
 import { ChartDonut, ChartThemeColor } from '@patternfly/react-charts';
 
 export default function MulticolororderedWithRightAlignedLegend() {
-    return (<div style={{ height: '330px', width: '750px' }}>
+    return (<div style={{ height: '40%', width: '80%' }}>
         <ChartDonut
-            ariaDesc="See today’s mortgage rates"
+            ariaDesc="See todayâ€™s mortgage rates"
             ariaTitle="Donut chart example"
             constrainToVisibleArea={true}
             data={[{ x: 'Principal & Interest', y: 1781 }, { x: 'Property Taxes', y: 490 }, { x: 'Home insurance', y: 75 }, { x: 'HOA', y: 95 }, { x: 'Mortgage ins. & other', y: 0 }]}
