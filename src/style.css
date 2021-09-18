@@ -1,0 +1,79 @@
+ .menu{
+     float: right;
+     color: black;
+        height:100%;
+        padding:24px;
+         font-size:17px;
+        font-weight:bold;
+
+    }
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+.before {
+    transition: 1s;
+    padding: 0px;
+    margin: 0px;
+    background-color: #F8F8F8;
+    z-index: 99;
+    width: 100%;
+    font-size: 20px;
+    color: black
+}
+
+.after {
+    transition: 1s;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    background-color: #F8F8F8;
+    box-shadow: 1px 1px 5px;
+    z-index: 1;
+    width: 100%;
+    font-size: 16px;
+    color: white
+}
+
+
+.nav-wrapper ul{
+    padding: 0px;
+    margin: 0;
+    display: inline-block;
+    right: 0
+        
+        
+}
+
+.nav-wrapper ul li{
+    display: inline-block;
+    padding: 20px;
+    margin: 0px;
+    right: 0px;
+    
+        
+}
+
+.brand-logo{
+   margin-right: 43%;     
+}
+
+.logo_img{
+    width: 7%;
+    margin-bottom:-30px;
+        
+}
+.logo_img_small{
+    width: 28%;
+    margin-bottom:-15px;
+        
+}
+.addshadow {
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.properties:hover {
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
